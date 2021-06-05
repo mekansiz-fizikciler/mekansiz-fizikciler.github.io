@@ -1,0 +1,75 @@
+html,
+body{
+    font-family: 'Comfortaa', cursive;
+}
+header,
+#intro {
+    height: 100vh;
+}
+
+#intro {
+    background: url("/assets/particles.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #7239b3;
+}
+
+.gradient {
+    background: rgb(165,109,226);
+    background: linear-gradient(137deg, rgba(165,109,226,1) 35%, rgba(13,82,191,1) 100%);   
+}
+
+.page-header {
+    height: 100vh;
+}
+
+.background {
+    background-color:#2D8069;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    font-size: inherit;
+    color: inherit;
+    vertical-align: -0.125em;
+    fill: currentColor;
+    margin-right: 1rem;
+  }
+
+.event-image {
+    max-height: 400px;
+}
+
+.working-group-image {
+    max-height: 300px;
+}
+
+.discord-omage {
+    max-height: 300px;
+}
+
+.join {
+    margin-right: 1rem;
+}
+
+.navigation {
+    height: 5rem;
+    font-size: 1.2rem;
+}
+
+.navigation .navbar-brand {
+    font-size: 1.2rem;
+}
+
+p.about {
+    line-height: 2rem;
+}
+
+#intro h2 {
+    color:red;
+}
+  

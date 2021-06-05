@@ -1,0 +1,79 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+// Modifying the color theme with the color scheme from 
+// https://elementary.io/brand
+// $primary: #7239b3;
+$primary: #0d52bf;
+$bubblegum: #bc245d;
+$grape: #7239b3;
+// $warning: #cc3b02;
+$warning: $grape;
+$success: #0e9a83;
+$info: #5865F2;
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+// 5. Add additional custom code here
+html,
+body{
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+}
+header,
+#intro {
+    height: 100vh;
+}
+
+#intro {
+    background: url("/assets/particles.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: $primary;
+}
+
+.event-image {
+    max-height: 400px;
+}
+
+.working-group-image {
+    max-height: 50px;
+}
+
+.discord-image {
+    max-height: 300px;
+}
+
+p.date {
+    color: $grape;
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+.intro-button {
+    height: 5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.section {
+    margin-top: $nav-link-height;
+}
+
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
+
+#biz-kimiz,
+#etkinlik,
+#working
+{
+    padding-top: 60px;
+}
