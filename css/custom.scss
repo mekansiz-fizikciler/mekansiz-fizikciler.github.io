@@ -21,6 +21,8 @@ html,
 body{
     font-family: 'Comfortaa', cursive;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 header,
 #intro {
@@ -34,6 +36,15 @@ header,
     -o-background-size: cover;
     background-size: cover;
     background-color: $primary;
+}
+
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
 .event-image {
@@ -69,7 +80,11 @@ p.date {
 .copyleft {
     display:inline-block;
     transform: rotate(180deg);
-  }
+}
+
+.english {
+    color: $bubblegum;
+}
 
 #biz-kimiz,
 #etkinlik,
