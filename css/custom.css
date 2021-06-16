@@ -11484,6 +11484,17 @@ header,
   background-color: #0d52bf;
 }
 
+#intro-eng {
+  height: 100vh;
+  background: url("/assets/eng-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.footer-eng {
+  background: url("/assets/eng-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
 .background {
   position: absolute;
   display: block;

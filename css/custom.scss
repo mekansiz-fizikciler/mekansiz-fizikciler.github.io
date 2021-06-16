@@ -38,6 +38,22 @@ header,
     background-color: $primary;
 }
 
+#intro-eng {
+    height: 100vh;
+    background: url("/assets/eng-background.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.footer-eng {
+    background: url("/assets/eng-background.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .background {
     position: absolute;
