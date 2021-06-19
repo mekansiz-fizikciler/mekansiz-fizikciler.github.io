@@ -11486,12 +11486,20 @@ header,
 
 #intro-eng {
   height: 100vh;
-  background: url("/assets/eng-background.jpg") no-repeat center center fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/eng-background.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/eng-background.jpg") no-repeat center center fixed;
   background-size: cover;
+  opacity: 1.0;
+}
+
+.mask {
+  -webkit-filter: brightness(0);
+          filter: brightness(0);
 }
 
 .footer-eng {
-  background: url("/assets/eng-background.jpg") no-repeat center center fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/eng-background.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/eng-background.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -11547,5 +11555,9 @@ p.date {
 #etkinlik,
 #working {
   padding-top: 60px;
+}
+
+h1.title, .title.h1 {
+  font-weight: 700;
 }
 /*# sourceMappingURL=custom.css.map */

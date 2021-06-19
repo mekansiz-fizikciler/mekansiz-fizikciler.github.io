@@ -40,15 +40,20 @@ header,
 
 #intro-eng {
     height: 100vh;
-    background: url("/assets/eng-background.jpg")no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/eng-background.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    opacity: 1.0;
+}
+
+.mask {
+    filter: brightness(0.0);
 }
 
 .footer-eng {
-    background: url("/assets/eng-background.jpg")no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/eng-background.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -107,4 +112,8 @@ p.date {
 #working
 {
     padding-top: 60px;
+}
+
+h1.title {
+    font-weight: 700;
 }
