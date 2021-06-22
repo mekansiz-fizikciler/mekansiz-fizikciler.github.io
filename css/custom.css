@@ -11485,7 +11485,6 @@ header,
 }
 
 #intro-eng {
-  height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/eng-background.jpg") no-repeat center center fixed;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/eng-background.jpg") no-repeat center center fixed;
   background-size: cover;
