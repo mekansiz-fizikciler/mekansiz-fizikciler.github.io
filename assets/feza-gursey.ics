@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Europe/Istanbul
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Istanbul
+X-LIC-LOCATION:Europe/Istanbul
+BEGIN:STANDARD
+TZNAME:+03
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210823T200247Z
+DTSTART;TZID=Europe/Istanbul:20210911T090000
+DTEND;TZID=Europe/Istanbul:20210911T190000
+SUMMARY:100. Yaşında Feza Gürsey
+UID:20210823T200247Z-84386587398@fe80:0:0:0:b6:c3ff:feeb:37ceens5
+TZID:Europe/Istanbul
+DESCRIPTION:Bilim Akademisi is inviting you to a scheduled Zoom meeting.\
+ n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/w/84386587398?tk=FkGgCQXSf
+ J5vUz7vVr8I5eiq3c59qPUozFDYOrbNLws.DQMAAAATpdUjBhZLODI3cWxZWlFCMlNqTDdtW
+ nprR0t3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=NlpUcjJhUUc5N2tSL05QbzR2TVhvUT
+ 09\n\nMeeting ID: 843 8658 7398\nPasscode: 882417\nOne tap mobile\n+1253
+ 2158782\,\,84386587398#\,\,\,\,*882417# US (Tacoma)\n+13017158592\,\,843
+ 86587398#\,\,\,\,*882417# US (Washington DC)\n\nDial by your location\n 
+        +1 253 215 8782 US (Tacoma)\n        +1 301 715 8592 US (Washingt
+ on DC)\n        +1 312 626 6799 US (Chicago)\n        +1 346 248 7799 US
+  (Houston)\n        +1 669 900 6833 US (San Jose)\n        +1 929 205 60
+ 99 US (New York)\nMeeting ID: 843 8658 7398\nPasscode: 882417\nFind your
+  local number: https://us02web.zoom.us/u/kdIpgpVVBO\n\n
+LOCATION:https://us02web.zoom.us/w/84386587398?tk=FkGgCQXSfJ5vUz7vVr8I5ei
+ q3c59qPUozFDYOrbNLws.DQMAAAATpdUjBhZLODI3cWxZWlFCMlNqTDdtWnprR0t3AAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAA&pwd=NlpUcjJhUUc5N2tSL05QbzR2TVhvUT09
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

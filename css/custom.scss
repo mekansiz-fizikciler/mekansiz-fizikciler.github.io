@@ -3,13 +3,31 @@
 // Modifying the color theme with the color scheme from 
 // https://elementary.io/brand
 // $primary: #7239b3;
-$primary: #0d52bf;
-$bubblegum: #bc245d;
-$grape: #7239b3;
-// $warning: #cc3b02;
-$warning: $grape;
-$success: #0e9a83;
-$info: #5865F2;
+
+// Kuşun renkleri
+$purple-1: #5b3e92;
+$purple-2: #824292;
+$purple-3: #b6519a;
+$purple-4: #d172ab;
+
+$blue-1: #265ba6;
+$blue-2: #2177bc;
+$blue-3: #3f96d2;
+$blue-4: #45b8e8;
+$blue-5: #63c7ed;
+
+$green-1: #2f9a73;
+$green-2: #40ab86;
+$green-3: #50b99a;
+
+$red-1: #c33118;
+$orange-1: #e95c19;
+$yellow-1: #f9c04d;
+
+$primary: $blue-1;
+$warning: $yellow-1;
+$success: $green-1;
+$info: $purple-1;
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -81,7 +99,7 @@ header,
 }
 
 p.date {
-    color: $grape;
+    color: $purple-1;
 }
 
 .icon {
@@ -104,7 +122,7 @@ p.date {
 }
 
 .english {
-    color: $bubblegum;
+    color: $purple-3;
 }
 
 #biz-kimiz,
@@ -115,5 +133,9 @@ p.date {
 }
 
 h1.title {
+    font-weight: 700;
+}
+
+strong {
     font-weight: 700;
 }
